@@ -5,6 +5,11 @@
 - Node v16.19.0+
 - TODO: Autoformat on Save in VSCode instructions
 
+## Getting Started
+
+- npm install
+- npm run start:client
+
 ## Features
 
 - NX Monorepo
