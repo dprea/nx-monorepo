@@ -6,7 +6,7 @@
  * * * * * * * * * * * * * * * * * * * * * * * * * * * *
  */
 
-import { Badge } from "@myorg/components";
+import { Badge } from '@myorg/components';
 
 export function NxWelcome({ title }: { title: string }) {
   return (
@@ -842,12 +842,12 @@ export function NxWelcome({ title }: { title: string }) {
         </div>
       </div>
       <div className="container relative pb-10">
-      <section className="hidden md:block">
-        <div className="overflow-hidden rounded-lg border bg-background shadow-xl">
-          <Badge variant="secondary">Click Me</Badge>
-        </div>
-      </section>
-    </div>
+        <section className="hidden md:block">
+          <div className="overflow-hidden rounded-lg border bg-background shadow-xl">
+            <Badge variant="secondary">Click Me</Badge>
+          </div>
+        </section>
+      </div>
     </>
   );
 }
