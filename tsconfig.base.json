@@ -15,7 +15,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@myorg/components": ["packages/components/src/ui/badge"]
+      "@myorg/components/*": ["packages/components/src/*"]
     }
   },
   "exclude": ["node_modules", "tmp"]
