@@ -4,7 +4,8 @@
   "license": "MIT",
   "scripts": {
     "prepare": "husky install",
-    "start:client": "npx nx run myapp:serve"
+    "start:client": "npx nx run myapp:serve",
+    "test:client": "npx nx run myapp:test"
   },
   "private": true,
   "dependencies": {
