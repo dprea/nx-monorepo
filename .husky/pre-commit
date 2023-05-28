@@ -2,5 +2,3 @@
 . "$(dirname -- "$0")/_/husky.sh"
 
 npx nx run myapp:lint
-npx commitlint
-npx nx run myapp:lint
