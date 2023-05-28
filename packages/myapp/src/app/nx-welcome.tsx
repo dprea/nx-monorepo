@@ -5,6 +5,9 @@
  Delete this file and get started with your project!
  * * * * * * * * * * * * * * * * * * * * * * * * * * * *
  */
+
+import { Badge } from "@myorg/components";
+
 export function NxWelcome({ title }: { title: string }) {
   return (
     <>
@@ -838,6 +841,13 @@ export function NxWelcome({ title }: { title: string }) {
           </p>
         </div>
       </div>
+      <div className="container relative pb-10">
+      <section className="hidden md:block">
+        <div className="overflow-hidden rounded-lg border bg-background shadow-xl">
+          <Badge variant="secondary">Click Me</Badge>
+        </div>
+      </section>
+    </div>
     </>
   );
 }

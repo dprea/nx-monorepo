@@ -6,6 +6,12 @@
 
 - Node v16.19.0+
 
+## Common Scripts
+
+Generate Lib
+
+"npx nx g @nx/js:library my-lib --bundler=vite --publishable --unitTestRunner=vitest" --importPath=@myorg/components
+
 ## Understand this workspace
 
 Run `nx graph` to see a diagram of the dependencies of the projects.
