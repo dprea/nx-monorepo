@@ -9,7 +9,6 @@ export function App() {
   return (
     <div>
       <Welcome title="myapp" />
-      Auto update?
       {/* START: routes */}
       {/* These routes and navigation have been generated for you */}
       {/* Feel free to move and update them to fit your needs */}
